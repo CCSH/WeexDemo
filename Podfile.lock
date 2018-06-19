@@ -1,0 +1,26 @@
+PODS:
+  - SDWebImage (4.4.1):
+    - SDWebImage/Core (= 4.4.1)
+  - SDWebImage/Core (4.4.1)
+  - SocketRocket (0.5.1)
+  - WeexSDK (0.18.0)
+
+DEPENDENCIES:
+  - SDWebImage
+  - SocketRocket
+  - WeexSDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+    - SocketRocket
+    - WeexSDK
+
+SPEC CHECKSUMS:
+  SDWebImage: 47e9b5b925cbce75946c23f0c42dd19464189af4
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  WeexSDK: ac56f255ce9a48e93ebc2e003956ab20da33321d
+
+PODFILE CHECKSUM: 1345f877772528a39c769f7f744f74ad3f2869fb
+
+COCOAPODS: 1.5.3

@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SHWeexManger.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    SHWeexManger *weex = [[SHWeexManger alloc]init];
+    [weex configWeex];
+    
     return YES;
 }
 
